@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:cupertino_icons/cupertino_icons.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:oneline/admin_list/feature/page1/views/tabsample.dart';
 import 'package:oneline/constrant/gaps.dart';
 import 'package:oneline/constrant/sizes.dart';
 
@@ -209,7 +210,7 @@ class _MainNavigationScreenState extends State<MainNavigationScreen>
                   Offstage(
                     offstage: _selectedIndex != 0,
                     child: Container(
-                      child: const Text('data1'),
+                      child: const TabSamplePage(),
                     ),
                   ),
                   Offstage(
